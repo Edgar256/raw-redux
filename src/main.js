@@ -27,3 +27,7 @@ function setDeleteButtonsEventListeners(){
         })
     }
 }
+
+/*  Render initial notes   */
+
+renderNotes();
