@@ -15,7 +15,7 @@ function renderNotes(){
 //Event Listeners
 addNoteForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('Title : ', addNoteTitle.valueOf, 'Content : ' , addNoteContent.value)
+    console.log('Title : ', addNoteTitle.value , 'Content : ' , addNoteContent.value)
 })
 
 function setDeleteButtonsEventListeners(){
